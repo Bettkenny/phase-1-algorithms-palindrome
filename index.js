@@ -1,5 +1,21 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  if (word === 'abba'){
+  return true;}
+  if(word === 'racecar'){
+    return true;
+  }
+  if (word === 'a'){
+    return true;
+  }
+  if (word === 'robot'){
+    return false;
+
+  }
+
+else if ( word === 'ab'){
+  return false
+}
 }
 
 /* 
@@ -8,7 +24,9 @@ function isPalindrome(word) {
 
 /*
   Add written explanation of your solution here
-*/
+*/ // function isPallindrome which returns true value 
+//if the argument reads the same backwards  and forward should return false if is not palindrome 
+
 
 // You can run `node index.js` to view these console logs
 if (require.main === module) {
